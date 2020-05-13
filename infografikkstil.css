@@ -1,0 +1,58 @@
+* {
+    margin-top: 0
+}
+
+/* Header */
+ul {
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+li {
+    display: inline;
+    float: right;
+    padding-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: fenwick, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: #f7921e; 
+}
+
+.stjerne1 {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 7px;
+    margin-left: 0;
+}
+/* header ferdig */
+
+.center {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    width: 90%;
+    max-width: 1400px;
+}
