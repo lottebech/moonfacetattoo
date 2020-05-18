@@ -1,0 +1,209 @@
+* {
+    margin-top: 0
+}
+
+/* Header */
+ul {
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    
+
+    
+}
+li {
+    display: inline;
+    float: right;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: fenwick, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: white;
+    font-size: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: #f7921e; 
+}
+
+.linje{
+    top: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.stjerne1 {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 0;
+}
+/* header ferdig */
+
+/* header ferdig */
+
+div.innhold {
+    margin-top: 5%;
+    
+    display: block;
+    text-align: center;
+}
+.box img {
+    float: left;
+    display: inline;
+    margin-right: 2%;
+    height: 100%;
+}
+
+.box {
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 60px;
+    width: 97%;
+    color: black;
+    background-color: #EDDBC5; 
+}
+
+.box h2 {
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-bottom: 5px;
+    font-family: gastromond, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.box p {
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: %;
+    padding-top: 10px;
+    font-family: fenwick, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.box h4 {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: fenwick, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.box p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.box p a:hover{
+    color: #f7921e;
+}
+.box h4 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.box h4 a:hover {
+    background-color: #f7921e;
+    color: black;
+}
+}
+/* ferdig innhold */
+
+.logo img{
+    position: static;
+    float: none;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    clear: none;
+    display: block;
+    margin-top: 20px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #EDDBC5;
+}
+.footer h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: gastromond, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    background-color: #EDDBC5;
+}
+.footer h4 {
+    text-align: center;
+    font-family: fenwick, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #EDDBC5;
+    margin-bottom: 0;
+}
+
+.footer h4 a{
+    text-decoration: none;
+    color: #f7921e;
+    font-weight: 600;
+}
+.footer h4 a:hover {
+    background-color: #f7921e;
+    color: black;
+}
+.ikoner img{
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.footer p{
+    display: block;
+    text-align: center;
+    font-family: fenwick, sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    background-color: #EDDBC5;
+   
+}
+.footer p a{
+    text-decoration: none;
+    color: #f7921e;
+    font-weight: 600;
+}
+.footer p a:hover {
+    background-color: #f7921e;
+    color: black;
+}

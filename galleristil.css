@@ -1,0 +1,128 @@
+* {
+    margin-top: 0
+}
+
+/* Header */
+ul {
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    
+
+    
+}
+li {
+    display: inline;
+    float: right;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: fenwick, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: white;
+    font-size: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: #f7921e; 
+}
+
+.linje{
+    top: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.stjerne1 {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 0;
+}
+/* header ferdig */
+
+.galleri {
+    margin-top: 2%;
+}
+/* footer */
+.footer {
+    display: block;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    background-color: #EDDBC5;
+}
+h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: gastromond, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.footer h4 {
+    text-align: center;
+    font-family: fenwick, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h4 a{
+    text-decoration: none;
+    color: #f7921e;
+    font-weight: 600;
+}
+h4 a:hover {
+    background-color: #f7921e;
+    color: black;
+}
+.ikoner img{
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.footer p{
+    display: block;
+    text-align: center;
+    font-family: fenwick, sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+   
+}
+.footer p a{
+    text-decoration: none;
+    color: #f7921e;
+    font-weight: 600;
+}
+.footer p a:hover {
+    background-color: #f7921e;
+    color: black;
+}
