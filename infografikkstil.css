@@ -4,13 +4,15 @@
 
 /* Header */
 ul {
-    z-index: 1;
+    z-index: 5;
     position: fixed;
     overflow: hidden;
     display: block;
     list-style-type: none;
+    text-align: right;
     top: 0;
-    width: 100%;
+    width: 95%;
+    max-width: 98%;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -23,10 +25,10 @@ ul {
 li {
     display: inline;
     float: right;
-    text-align: center;
+    text-align: right;
     padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 80px;
+    padding-right: 1%;
+    margin-left: 5%;
     text-decoration: none;
     color: black;
     font-family: fenwick, sans-serif;
@@ -45,21 +47,26 @@ li a:hover{
 }
 
 .linje{
+    z-index: 3;
     top: 0;
     background-color: white;
     position: fixed;
     width: 100%;
-    padding-top: 8px;
+    padding-top:8px;
     padding-bottom: 8px;
+    margin-bottom: 5%;
+    overflow: hidden;
 }
 .stjerne1 {
     top: 0;
     position: fixed;
-    z-index: 1;
-    margin-top: 5px;
+    z-index: 4;
+    padding-top: 5px;
     margin-left: 0;
+    overflow: hidden;
+    max-width: 50%; 
 }
-/* header ferdig */
+
 
 /* innhold */
 .center {
